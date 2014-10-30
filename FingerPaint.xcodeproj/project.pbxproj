@@ -7,12 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		924A144E1A024E7D00028F4D /* Path.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924A144D1A024E7D00028F4D /* Path.swift */; };
+		924A144F1A024E7D00028F4D /* Path.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924A144D1A024E7D00028F4D /* Path.swift */; };
 		9292C2091A022F4D00BAD464 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9292C2081A022F4D00BAD464 /* AppDelegate.swift */; };
 		9292C20B1A022F4D00BAD464 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9292C20A1A022F4D00BAD464 /* ViewController.swift */; };
 		9292C20E1A022F4D00BAD464 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9292C20C1A022F4D00BAD464 /* Main.storyboard */; };
 		9292C2101A022F4D00BAD464 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9292C20F1A022F4D00BAD464 /* Images.xcassets */; };
 		9292C2131A022F4D00BAD464 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9292C2111A022F4D00BAD464 /* LaunchScreen.xib */; };
 		9292C21F1A022F4D00BAD464 /* FingerPaintTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9292C21E1A022F4D00BAD464 /* FingerPaintTests.swift */; };
+		9292C22A1A022FB700BAD464 /* SpecTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9292C2291A022FB700BAD464 /* SpecTests.swift */; };
+		9292C22B1A02302A00BAD464 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9292C20A1A022F4D00BAD464 /* ViewController.swift */; };
+		9292C22C1A0231A900BAD464 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9292C2081A022F4D00BAD464 /* AppDelegate.swift */; };
+		9292C22D1A0231AE00BAD464 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9292C20C1A022F4D00BAD464 /* Main.storyboard */; };
+		9292C22F1A0231FD00BAD464 /* CanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9292C22E1A0231FD00BAD464 /* CanvasView.swift */; };
+		9292C2301A0231FD00BAD464 /* CanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9292C22E1A0231FD00BAD464 /* CanvasView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		924A144D1A024E7D00028F4D /* Path.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Path.swift; sourceTree = "<group>"; };
 		9292C2031A022F4D00BAD464 /* FingerPaint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FingerPaint.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9292C2071A022F4D00BAD464 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9292C2081A022F4D00BAD464 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +45,8 @@
 		9292C2181A022F4D00BAD464 /* FingerPaintTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FingerPaintTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9292C21D1A022F4D00BAD464 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9292C21E1A022F4D00BAD464 /* FingerPaintTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FingerPaintTests.swift; sourceTree = "<group>"; };
+		9292C2291A022FB700BAD464 /* SpecTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpecTests.swift; sourceTree = "<group>"; };
+		9292C22E1A0231FD00BAD464 /* CanvasView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CanvasView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +94,8 @@
 				9292C20F1A022F4D00BAD464 /* Images.xcassets */,
 				9292C2111A022F4D00BAD464 /* LaunchScreen.xib */,
 				9292C2061A022F4D00BAD464 /* Supporting Files */,
+				9292C22E1A0231FD00BAD464 /* CanvasView.swift */,
+				924A144D1A024E7D00028F4D /* Path.swift */,
 			);
 			path = FingerPaint;
 			sourceTree = "<group>";
@@ -98,6 +111,7 @@
 		9292C21B1A022F4D00BAD464 /* FingerPaintTests */ = {
 			isa = PBXGroup;
 			children = (
+				9292C2281A022FB700BAD464 /* spec */,
 				9292C21E1A022F4D00BAD464 /* FingerPaintTests.swift */,
 				9292C21C1A022F4D00BAD464 /* Supporting Files */,
 			);
@@ -110,6 +124,14 @@
 				9292C21D1A022F4D00BAD464 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9292C2281A022FB700BAD464 /* spec */ = {
+			isa = PBXGroup;
+			children = (
+				9292C2291A022FB700BAD464 /* SpecTests.swift */,
+			);
+			path = spec;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,6 +224,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9292C22D1A0231AE00BAD464 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,6 +237,8 @@
 			files = (
 				9292C20B1A022F4D00BAD464 /* ViewController.swift in Sources */,
 				9292C2091A022F4D00BAD464 /* AppDelegate.swift in Sources */,
+				924A144E1A024E7D00028F4D /* Path.swift in Sources */,
+				9292C22F1A0231FD00BAD464 /* CanvasView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,6 +246,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9292C22C1A0231A900BAD464 /* AppDelegate.swift in Sources */,
+				9292C22B1A02302A00BAD464 /* ViewController.swift in Sources */,
+				9292C2301A0231FD00BAD464 /* CanvasView.swift in Sources */,
+				9292C22A1A022FB700BAD464 /* SpecTests.swift in Sources */,
+				924A144F1A024E7D00028F4D /* Path.swift in Sources */,
 				9292C21F1A022F4D00BAD464 /* FingerPaintTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -405,6 +435,7 @@
 				9292C2241A022F4D00BAD464 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9292C2251A022F4D00BAD464 /* Build configuration list for PBXNativeTarget "FingerPaintTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +444,7 @@
 				9292C2271A022F4D00BAD464 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
